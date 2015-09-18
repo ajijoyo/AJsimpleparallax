@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
+{
+    IBOutlet __weak UITableView *myTable;
+    UIImageView *myHeader;
+}
 
 @end
 

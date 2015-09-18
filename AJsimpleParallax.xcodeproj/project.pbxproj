@@ -14,7 +14,8 @@
 		D1FD18101BABFF7B00F89EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1FD180F1BABFF7B00F89EA0 /* Images.xcassets */; };
 		D1FD18131BABFF7B00F89EA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FD18111BABFF7B00F89EA0 /* LaunchScreen.xib */; };
 		D1FD181F1BABFF7B00F89EA0 /* AJsimpleParallaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD181E1BABFF7B00F89EA0 /* AJsimpleParallaxTests.m */; };
-		D1FD182B1BABFFA100F89EA0 /* AJsimpleParallax.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD182A1BABFFA100F89EA0 /* AJsimpleParallax.m */; };
+		D1FD182F1BAC035900F89EA0 /* AJsimpleParallax.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD182E1BAC035900F89EA0 /* AJsimpleParallax.m */; };
+		D1FD18311BAC083800F89EA0 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FD18301BAC083800F89EA0 /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,9 @@
 		D1FD18181BABFF7B00F89EA0 /* AJsimpleParallaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJsimpleParallaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FD181D1BABFF7B00F89EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1FD181E1BABFF7B00F89EA0 /* AJsimpleParallaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJsimpleParallaxTests.m; sourceTree = "<group>"; };
-		D1FD18291BABFFA100F89EA0 /* AJsimpleParallax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJsimpleParallax.h; sourceTree = "<group>"; };
-		D1FD182A1BABFFA100F89EA0 /* AJsimpleParallax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJsimpleParallax.m; sourceTree = "<group>"; };
+		D1FD182D1BAC035900F89EA0 /* AJsimpleParallax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJsimpleParallax.h; sourceTree = "<group>"; };
+		D1FD182E1BAC035900F89EA0 /* AJsimpleParallax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJsimpleParallax.m; sourceTree = "<group>"; };
+		D1FD18301BAC083800F89EA0 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 		D1FD17F61BABFF7B00F89EA0 = {
 			isa = PBXGroup;
 			children = (
-				D1FD18281BABFF8800F89EA0 /* AJsimpleParallax */,
+				D1FD182C1BAC035900F89EA0 /* AJsimpleParallax */,
 				D1FD18011BABFF7B00F89EA0 /* AJsimpleParallax */,
 				D1FD181B1BABFF7B00F89EA0 /* AJsimpleParallaxTests */,
 				D1FD18001BABFF7B00F89EA0 /* Products */,
@@ -85,6 +87,7 @@
 		D1FD18011BABFF7B00F89EA0 /* AJsimpleParallax */ = {
 			isa = PBXGroup;
 			children = (
+				D1FD18301BAC083800F89EA0 /* cat.png */,
 				D1FD18061BABFF7B00F89EA0 /* AppDelegate.h */,
 				D1FD18071BABFF7B00F89EA0 /* AppDelegate.m */,
 				D1FD18091BABFF7B00F89EA0 /* ViewController.h */,
@@ -123,13 +126,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D1FD18281BABFF8800F89EA0 /* AJsimpleParallax */ = {
+		D1FD182C1BAC035900F89EA0 /* AJsimpleParallax */ = {
 			isa = PBXGroup;
 			children = (
-				D1FD18291BABFFA100F89EA0 /* AJsimpleParallax.h */,
-				D1FD182A1BABFFA100F89EA0 /* AJsimpleParallax.m */,
+				D1FD182D1BAC035900F89EA0 /* AJsimpleParallax.h */,
+				D1FD182E1BAC035900F89EA0 /* AJsimpleParallax.m */,
 			);
 			name = AJsimpleParallax;
+			path = AJsimpleParallax/AJsimpleParallax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +218,7 @@
 			files = (
 				D1FD180E1BABFF7B00F89EA0 /* Main.storyboard in Resources */,
 				D1FD18131BABFF7B00F89EA0 /* LaunchScreen.xib in Resources */,
+				D1FD18311BAC083800F89EA0 /* cat.png in Resources */,
 				D1FD18101BABFF7B00F89EA0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +240,7 @@
 				D1FD180B1BABFF7B00F89EA0 /* ViewController.m in Sources */,
 				D1FD18081BABFF7B00F89EA0 /* AppDelegate.m in Sources */,
 				D1FD18051BABFF7B00F89EA0 /* main.m in Sources */,
-				D1FD182B1BABFFA100F89EA0 /* AJsimpleParallax.m in Sources */,
+				D1FD182F1BAC035900F89EA0 /* AJsimpleParallax.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +437,7 @@
 				D1FD18241BABFF7B00F89EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1FD18251BABFF7B00F89EA0 /* Build configuration list for PBXNativeTarget "AJsimpleParallaxTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +446,7 @@
 				D1FD18271BABFF7B00F89EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

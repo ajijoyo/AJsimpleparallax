@@ -16,6 +16,7 @@
 
 -(void)setThisParallax:(UIScrollView *)scroll withTreshold:(CGFloat)percent {
     
+    self.layer.masksToBounds = YES;
     if((scroll.contentOffset.y <= self.frame.size.height) && (scroll.contentOffset.y >= 0.0)){
         CGFloat treshold = scroll.contentOffset.y / self.frame.size.height;
         self.transform = CGAffineTransformMakeTranslation(self.frame.origin.x, (treshold * (self.frame.size.height * 0.7)));
